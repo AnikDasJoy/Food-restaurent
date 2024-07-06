@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    height: 615px;
+    background-image: linear-gradient(0deg,
+            rgb(16, 16, 16) -19.5%,
+            rgba(16, 16, 16, 0) 100%),
+        url(assets/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#hero .hero-content {
+    width: 685px;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.description {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 14px 18px 14px 18px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#card-box {
+    width: 884px;
+    margin: 100px auto;
+}
+
+/* #card-box .info {} */
+
+#card-box .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .subtitle {
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-family: Work Sans;
+}
+
+.card {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .img-box {
+    width: 250px;
+}
+
+.card .img-box img {
+    width: 100%;
+}
+
+.card .shop {
+    color: rgb(16, 16, 16);
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 10px 18px 10px 18px;
+}
+
+#food {
+    display: flex;
+}
+
+#food .info {
+    position: static;
+    width: 1320px;
+    height: 328px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 100px 0px;
+    margin-right: 30px;
+}
+
+#food img {
+    /* position: absolute; */
+    width: 660px;
+    height: 450px;
+    left: 0;
+    top: 0;
+}
+
+#food .info .title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-bottom: 15px;
+    /* text-align: center; */
+}
+
+#food .subtitle {
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#food .follow {
+    color: rgba(16, 16, 16, 0.704);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: center;
+}
