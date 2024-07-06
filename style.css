@@ -196,3 +196,8 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
+li {
+    list-style: none;
+    margin-right: 10px;
+}
