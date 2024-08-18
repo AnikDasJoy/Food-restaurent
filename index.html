@@ -10,6 +10,18 @@
 </head>
 
 <body>
+
+    <script>
+        function welcome(){
+            alert("code : SUMMER15");
+            var name=prompt("Please tell me your name");
+            alert('hello '+ name);
+            console.log("Your name is " +name);
+            // alert("Did you get the code?");
+            // alert("yes");
+        }
+    </script>
+
     <section id="hero">
         <div class="hero-content">
             <p class="subtitle">Savor the Flavors</p>
@@ -19,7 +31,7 @@
                 Latin literature
                 from 45 BC, making it over 2000 years old. Richard McClintock</p>
             <div class="btn-container">
-                <button class="btn">Shop The Hottest Food</button>
+                <button onclick="welcome()" class="btn">Shop The Hottest Food</button>
             </div>
         </div>
     </section>
